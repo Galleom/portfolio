@@ -3782,9 +3782,6 @@ input, select, textarea {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
-			#main > .post header.major > .date {
-				margin-top: -2rem;
-			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
@@ -3794,7 +3791,8 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
-			}
+			border: 0;
+		}
 
 			@media screen and (max-width: 1280px) {
 
@@ -3808,6 +3806,7 @@ input, select, textarea {
 
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
+			border: 0;
 				}
 
 					#main > .post header.major > .date {
@@ -3854,7 +3853,8 @@ input, select, textarea {
 
 			#main > .posts > * {
 				width: 50%;
-			}
+			border: 0;
+		}
 
 			#main > .posts > * {
 				padding: 4rem;
@@ -3862,11 +3862,8 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
-				border-left-width: 2px;
-				border-style: solid;
-				border-top-width: 2px;
 				text-align: center;
+				border: 0;
 			}
 
 				#main > .posts > article > :last-child {
@@ -3874,7 +3871,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 0;
+					border-top-width: 0;
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
@@ -3903,22 +3900,6 @@ input, select, textarea {
 				#main > .posts > * {
 					padding: 2rem;
 					width: 100%;
-				}
-
-				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 2px;
-				}
-
-				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 2px;
-				}
-
-				#main > .posts > article:nth-child(n) {
-					border-left-width: 0;
-				}
-
-				#main > .posts > article:nth-child(-n + 1) {
-					border-top-width: 0;
 				}
 
 				#main > .posts > article .image {
